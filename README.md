@@ -71,3 +71,13 @@ export default defineConfig([
   },
 ])
 ```
+
+## GitHub Pages Deployment
+
+1. Ensure `vite.config.ts` has `base: '/PalastraDeco/'` (repo subpath).
+2. Comment out `dist` in `.gitignore` to allow committing builds.
+3. Run `pnpm build` to generate `dist/`.
+4. Run `pnpm deploy` (uses gh-pages to push dist/ to gh-pages branch).
+5. `git add . && git commit -m \"Update\" && git push`.
+6. In GitHub repo Settings > Pages, select source \"Deploy from a branch\" > gh-pages > / (root).
+7. Site live at https://agstudio98.github.io/PalastraDeco/ after ~5min.
