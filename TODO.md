@@ -1,1 +1,13 @@
-# Fix GitHub Pages Blank Site\n\n[x] 1. Created this TODO.md with approved plan\n[x] 2. Update vite.config.ts: set base: '/PalastraDeco/'\n[x] 3. Edit .gitignore: comment out or remove 'dist' line\n[x] 4. Update README.md: add GitHub Pages deployment instructions\n[x] 5. Test build: pnpm build, verify dist/index.html has /PalastraDeco/assets/... paths\n[x] 6. Deploy: pnpm deploy (completed: \"Published\")\n[ ] 7. Commit & push all changes: git add . && git commit -m \"Fix GH Pages: correct base path and dist commit\" && git push\n[ ] 8. Verify GitHub repo Settings > Pages uses gh-pages branch, check live site https://agstudio98.github.io/PalastraDeco/\n\nCurrent status: Deploy successful to gh-pages branch. Commit source changes next, then verify live site ~5min after push.
+# GitHub Pages Adaptation & Deploy - APPROVED PLAN ✅
+
+## Steps from approved plan:
+
+- [x] 1. **Created/Updated this TODO.md** with detailed steps tracking progress.
+- [x] 2. Edit .gitignore: Comment `# dist` to allow committing build output.
+- [x] 3. Test build: `pnpm build` → verify dist/ with correct paths.\n- [x] 4. Deploy to gh-pages: `pnpm deploy` (Published ✅).
+- [ ] 5. Commit & push source changes: `git add . && git commit -m \"Finalize GH Pages\" && git push`.
+- [ ] 6. Switch to main branch: `git checkout main`.
+- [ ] 7. **Verify** site at https://agstudio98.github.io/PalastraDeco/
+
+**Next:** Will complete step-by-step, updating this file after each.
+**Final:** Use attempt_completion once live & pushed.
